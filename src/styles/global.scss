@@ -1,0 +1,85 @@
+@import "./settings.scss";
+@import "./normalize.scss";
+@import "./typography.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  font-family: $main-font;
+  background: $color-bg;
+  color: $color-white;
+  line-height: 1.7;
+  background-image: url("../assets/bg-texture.png");
+}
+
+/* general */
+
+.container {
+  width: $container-width-lg;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+.btn {
+  width: max-content;
+  display: inline-block;
+  color: $color-primary;
+  padding: 12px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  border: 1px solid $color-primary;
+  transition: $transition;
+}
+
+.btn:hover {
+  background: $color-white;
+  color: $color-bg;
+  border-color: transparent;
+}
+
+.btn-primary {
+  background: $color-primary;
+  color: $color-bg;
+}
+
+/* medium */
+
+@media screen and (max-width: 1024px) {
+  .container {
+    width: $container-width-md;
+  }
+}
+/* small */
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: $container-width-sm;
+  }
+}
