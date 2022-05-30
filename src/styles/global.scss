@@ -35,6 +35,10 @@ body {
   margin: 0 auto;
 }
 
+.title {
+  font-family: $title-font;
+}
+
 h1,
 h2,
 h3,
@@ -45,6 +49,30 @@ h5 {
 
 h1 {
   font-size: 40px;
+}
+
+section > h2,
+section > h5 {
+  text-align: center;
+  color: $color-light;
+}
+
+section > h2 {
+  color: $color-primary;
+  margin-bottom: 48px;
+}
+
+.text-light {
+  color: $color-light;
+}
+
+a {
+  color: $color-primary;
+  transition: $transition;
+}
+
+a:hover {
+  color: $color-white;
 }
 
 .btn {
@@ -67,6 +95,12 @@ h1 {
 .btn-primary {
   background: $color-primary;
   color: $color-bg;
+}
+
+img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
 }
 
 /* medium */
