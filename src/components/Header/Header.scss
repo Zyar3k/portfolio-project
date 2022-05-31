@@ -2,7 +2,8 @@
 
 header {
   height: 100vh;
-  padding-top: 112px;
+  // padding-top: 112px;
+  padding-top: 20px;
   overflow: hidden;
 
   border: 1px solid white;
@@ -12,6 +13,24 @@ header {
   text-align: center;
   height: 100%;
   position: relative;
+  // border: 1px solid red;
+  padding-top: 70px;
+}
+
+.logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  svg {
+    fill: $color-light;
+    transition: $transition;
+    height: 70px;
+
+    &:hover {
+      fill: $color-white;
+    }
+  }
 }
 
 /* cta */
@@ -66,9 +85,23 @@ header {
   font-size: 14px;
 }
 
+@media screen and (max-width: 1024px) {
+  .logo {
+    svg {
+      height: 50px;
+    }
+  }
+}
+
 @media screen and (max-width: 600px) {
   .header__socials,
   .scroll__down {
     display: none;
+  }
+
+  .logo {
+    svg {
+      height: 34px;
+    }
   }
 }

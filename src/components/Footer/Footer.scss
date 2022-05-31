@@ -1,1 +1,76 @@
 @import "../../styles/global.scss";
+
+footer {
+  background: $color-primary;
+  padding: 48px 0;
+  text-align: center;
+  font-size: 15px;
+  margin-top: 80px;
+}
+
+footer a {
+  color: $color-bg;
+}
+
+.footer__logo {
+  margin-bottom: 32px;
+  display: inline-block;
+
+  svg {
+    fill: $color-white;
+    height: 100px;
+  }
+}
+
+.permalinks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 32px;
+  margin: 0 auto 48px;
+}
+
+.footer__socials {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 64px;
+}
+
+.footer__socials a {
+  background: $color-bg;
+  color: $color-white;
+  padding: 14px;
+  border-radius: 12px;
+  display: flex;
+  border: 1px solid transparent;
+}
+
+.footer__socials a:hover {
+  background: transparent;
+  color: $color-bg;
+  border-color: $color-bg;
+}
+
+.footer__copyright {
+  margin-bottom: 64px;
+  color: $color-bg;
+}
+
+@media screen and (max-width: 1024px) {
+  .footer__logo {
+    svg {
+      fill: $color-white;
+      height: 70px;
+    }
+  }
+}
+/* small */
+@media screen and (max-width: 600px) {
+  .footer__logo {
+    svg {
+      fill: $color-white;
+      height: 60px;
+    }
+  }
+}
