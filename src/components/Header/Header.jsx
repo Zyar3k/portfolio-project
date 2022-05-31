@@ -1,6 +1,7 @@
 import HeaderSocials from "./HeaderSocials";
 import CTA from "./CTA";
-import ME from "../../assets/me3.png";
+// import ME from "../../assets/me3.png";
+import ME from "../../assets/me4.png";
 
 import "./Header.scss";
 

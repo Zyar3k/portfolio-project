@@ -51,6 +51,12 @@ h1 {
   font-size: 40px;
 }
 
+section {
+  // margin-top: 128px;
+  border: 1px solid red;
+  min-height: 100vh;
+}
+
 section > h2,
 section > h5 {
   text-align: center;
