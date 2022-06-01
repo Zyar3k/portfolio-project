@@ -5,6 +5,7 @@ footer {
   padding: 48px 0;
   text-align: center;
   font-size: 15px;
+  margin-top: 120px;
 }
 
 footer a {
@@ -16,8 +17,13 @@ footer a {
   display: inline-block;
 
   svg {
-    fill: $color-white;
     height: 100px;
+    color: $color-bg;
+    transition: $transition;
+
+    &:hover {
+      fill: $color-white;
+    }
   }
 }
 

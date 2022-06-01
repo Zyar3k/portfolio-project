@@ -79,7 +79,7 @@ const Header = () => {
         </div>
 
         <a href="#contact" className="scroll__down">
-          Scroll down
+          Przewiń w dół
         </a>
       </div>
     </header>
