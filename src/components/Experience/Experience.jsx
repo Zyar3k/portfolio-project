@@ -28,7 +28,7 @@ const backData = [
 const Experience = () => {
   return (
     <section id="experience">
-      <h5>Mam doświadczenie w pracy z... </h5>
+      <h5>Doświadczenie w pracy</h5>
       <h2>Moje umiejętności</h2>
       <div className="container experience__container">
         <div className="experience__frontend">
