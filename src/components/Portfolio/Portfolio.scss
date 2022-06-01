@@ -26,9 +26,9 @@
   overflow: hidden;
   width: 410px;
   height: 280px;
+  width: 100%;
 
   img {
-    height: 100%;
     object-fit: cover;
   }
 }
@@ -41,12 +41,10 @@
 }
 
 .portfolio__item-tags {
-  // border: 1px solid red;
   margin-bottom: 16px;
   display: flex;
   justify-content: flex-start;
   .badge {
-    // border: 1px solid red;
     padding: 4px 8px;
     border-radius: 12px;
     margin: 0 4px;

@@ -2,19 +2,18 @@
 
 header {
   height: 100vh;
-  // padding-top: 112px;
   padding-top: 20px;
   overflow: hidden;
-
-  border: 1px solid white;
 }
 
 .header__container {
   text-align: center;
-  height: 100%;
   position: relative;
-  // border: 1px solid red;
   padding-top: 70px;
+}
+
+.title {
+  font-family: $title-font;
 }
 
 .logo {
@@ -62,16 +61,11 @@ header {
 /* me */
 .me {
   background: linear-gradient($color-primary, transparent);
-
   width: 350px;
-
-  // height: 480px; //
-  position: absolute;
-  left: calc(50% - 175px);
+  margin: 0 auto;
   margin-top: 64px;
   border-radius: 190px 190px 0 0;
   overflow: hidden;
-
   padding: 50px 18px 0 18px;
 }
 
@@ -103,5 +97,13 @@ header {
     svg {
       height: 34px;
     }
+  }
+}
+@media screen and (max-width: 380px) {
+  .title {
+    margin: 16px 0;
+  }
+  .me {
+    width: 300px;
   }
 }
