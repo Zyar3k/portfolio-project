@@ -1,7 +1,6 @@
 import HeaderSocials from "./HeaderSocials";
 import CTA from "./CTA";
-// import ME from "../../assets/me3.png";
-import ME from "../../assets/me4.png";
+import HOOD from "../../assets/hood.png";
 
 import "./Header.scss";
 
@@ -75,7 +74,7 @@ const Header = () => {
         <HeaderSocials />
 
         <div className="me">
-          <img src={ME} alt="me" />
+          <img src={HOOD} alt="me" />
         </div>
 
         <a href="#contact" className="scroll__down">
