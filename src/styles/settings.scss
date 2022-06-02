@@ -3,14 +3,49 @@ $main-font: "Poppins", sans-serif;
 $title-font: "Rammetto One", cursive;
 /* colors */
 // tests
+// works good
+// $color-bg: rgb(31, 31, 56);
+// $color-bg-variant: rgb(44, 44, 108);
+// $color-primary: rgb(77, 181, 255);
+// $color-primary-variant: rgba(77, 181, 255, 0.4);
+// $color-white: rgb(255, 255, 255);
+// $color-light: rgba(255, 255, 255, 0.6);
 
-$color-bg: #1f1f38;
-$color-bg-variant: #2c2c6c;
-$color-primary: #4db5ff;
-$color-primary-variant: rgba(77, 181, 255, 0.4);
+// dark mode
+// ver1
+$color-bg: #171717;
+$color-bg-variant: #2f2a2a;
+$color-primary: #da0037;
+$color-primary-variant: rgba($color-primary, 0.4);
+$color-white: rgb(255, 255, 255);
+$color-light: rgba(255, 255, 255, 0.6);
+// ver4 !!!!!!!!!!!!!!!!!!!11
+// $color-bg: #2f2519;
+// $color-bg-variant: #4a3f35;
+// $color-primary: #fa7d09;
+// $color-primary-variant: rgba($color-primary, 0.4);
+// $color-white: rgb(255, 255, 255);
+// $color-light: rgba(255, 255, 255, 0.6);
 
-$color-white: #fff;
-$color-light: #ffffff99;
+// ver3
+// $color-bg: #c4ddff;
+// $color-bg-variant: #7fb5ff;
+// $color-primary: #001d6e;
+// $color-primary-variant: rgba($color-primary, 0.4);
+
+// $color-white: rgb(255, 255, 255);
+// $color-white: rgb(0, 0, 0);
+// $color-light: rgba($color-white, 0.6);
+
+// ver4 withou bg
+// $color-bg: #f9ebc8;
+// $color-bg-variant: #fefbe7;
+// $color-primary: #a0bcc2;
+// $color-primary-variant: rgba($color-primary, 0.4);
+
+// $color-white: rgb(255, 255, 255);
+// $color-white: rgb(0, 0, 0);
+// $color-light: rgba($color-white, 0.6);
 
 /* others */
 $transition: all 0.4s ease;
